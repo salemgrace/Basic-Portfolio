@@ -10,15 +10,20 @@ header {
     border-width: 1.25px;
 }
 
-.top {
-    width: 960px;
-    margin: 0 auto;
+h1 {
+    color: #4aaaa5;
+    font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
     background-image: url("../images/hexellence.png");
+    margin: 0 auto;
+}
+
+.top {
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -70,26 +75,26 @@ body {
 
 .line {
     border: none;
-    height: 2px;
+    height: 3px;
     background-color: #cccccc;
 }
 
 .pic {
     float: left;
     position: relative;
+    padding: 1em;
 }
 
 .about-me {
-    float: left;
-    position: relative;
-    display: inline-block;
     margin-left: 20px; 
     margin-right: 20px;
+    line-height: 1.5;
 }
 
-h1 {
-    color: #4aaaa5;
-    font-family: "Georgia", Times, Times New Roman, serif;
+
+
+.contact {
+
 }
 
 footer {
